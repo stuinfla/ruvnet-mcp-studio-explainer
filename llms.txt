@@ -1,0 +1,18 @@
+# mcp-studio
+
+> One resource. Two runtimes. Same signal, every time.
+
+One resource. Two runtimes. Same signal, every time.
+
+This is an independent, art-directed explainer for ruvnet's mcp-studio — it takes a newcomer from "never seen it" to "ready to implement", grounded in a real RVF knowledge base of the source.
+
+## What it is
+mcp-studio: the patch bay — a studio signal jack where one cable is split and plugged into two monitors at once
+
+## For your AI
+A downloadable knowledge pack (RVF vector KB + MCP server) ships with this page so your agent can search the source too: https://mcp-studio-explainer.netlify.app/mcp-studio-knowledge-pack.zip
+
+## Links
+- Live explainer: https://mcp-studio-explainer.netlify.app/
+- Source repository: https://github.com/ruvnet/mcp-studio
+- AI knowledge pack: https://mcp-studio-explainer.netlify.app/mcp-studio-knowledge-pack.zip

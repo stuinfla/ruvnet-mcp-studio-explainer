@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mcp-studio — One resource. Two runtimes. Same signal, every time.</title>
+  <meta name="description" content="One resource. Two runtimes. Same signal, every time.">
+  <meta name="author" content="Independent explainer for ruvnet's mcp-studio — built by Stuart Kerr at ISOvision.ai">
+  <link rel="canonical" href="https://mcp-studio-explainer.netlify.app/">
+  <meta name="theme-color" content="#ff8a3d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="mcp-studio — One resource. Two runtimes. Same signal, every time.">
+  <meta property="og:description" content="One resource. Two runtimes. Same signal, every time.">
+  <meta property="og:url" content="https://mcp-studio-explainer.netlify.app/">
+  <meta property="og:image" content="https://mcp-studio-explainer.netlify.app/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="mcp-studio — One resource. Two runtimes. Same signal, every time.">
+  <meta name="twitter:description" content="One resource. Two runtimes. Same signal, every time.">
+  <meta name="twitter:image" content="https://mcp-studio-explainer.netlify.app/assets/social-card.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "mcp-studio",
+  "description": "One resource. Two runtimes. Same signal, every time.",
+  "url": "https://mcp-studio-explainer.netlify.app/",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Cross-platform",
+  "image": "https://mcp-studio-explainer.netlify.app/assets/social-card.png",
+  "author": {
+    "@type": "Person",
+    "name": "ruvnet"
+  },
+  "codeRepository": "https://github.com/ruvnet/mcp-studio",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="prov-banner">
+    <div class="wrap prov-banner-inner">
+      <p class="prov-attr">An independent explainer for <strong>ruvnet</strong>'s <a href="https://github.com/ruvnet/mcp-studio" target="_blank" rel="noopener">mcp-studio</a> — built to help you actually implement it.</p>
+      <p class="prov-live"><span class="prov-dot" aria-hidden="true">&#9679;</span> source <code>github.com/ruvnet/mcp-studio</code></p>
+    </div>
+  </div>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="mcp-studio explainer home">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="3" y="3" width="26" height="26" rx="8" fill="none" stroke="var(--accent)" stroke-width="2"></rect>
+        <rect x="9" y="9" width="14" height="14" rx="4" fill="var(--accent-2)"></rect>
+        <circle cx="16" cy="16" r="3" fill="var(--on-accent)"></circle>
+      </svg>
+        <span>mcp-studio</span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#what-it-is">What it is</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#use-cases">Use cases</a>
+        <a href="#get-started">Get started</a>
+        <a href="#the-pack">AI pack</a>
+        <a href="https://github.com/ruvnet/mcp-studio" target="_blank" rel="noopener">GitHub &#8599;</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+
+  <a id="top"></a>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">A starter, not a demo you outgrow</span>
+          <h1>A chat that hands you back a real screen — not just words.</h1>
+          <p class="lede">Right now, a chatbot can only talk back at you. It can describe a chart. It cannot show you one. MCP Studio changes that. It lets a chat answer with an actual screen. A chart you can read. A form you can fill in. A dashboard that updates live — right inside the chat. Clone this project, and that wiring already works.</p>
+          <p class="sub">Comes with a page for trying it yourself, five ready-made dashboard designs, and one web address a chat app can call directly.</p>
+          <p class="attrib-lede">An <strong>independent explainer</strong> for <strong>rUv <span class="attrib-handle">(ruvnet)</span></strong>'s <a href="https://github.com/ruvnet/mcp-studio" target="_blank" rel="noopener">mcp-studio</a> — built to take you from "never seen it" to "ready to implement".</p>
+          <div class="cta-row">
+          <a class="cta" href="#get-started">Get started</a>
+          <a class="cta ghost" href="https://github.com/ruvnet/mcp-studio" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        <div class="meta-row"><span><b>Ecosystem</b> npm</span><span><b>License</b> Apache License 2.0</span><span><b>Live demo</b> web-based-chatgpt-mcp-starter.ruv.chatgpt.site</span></div>
+        </div>
+        <figure class="hero-art">
+          <button type="button" class="diagram-zoom" data-src="assets/hero.png" data-alt="mcp-studio: A single amber patch cable runs from one jack into two studio monitors — a browser window and a ChatGPT panel — both lit with the exact same live signal." aria-label="Enlarge: mcp-studio: A single amber patch cable runs from one jack into two studio monitors — a browser window and a ChatGPT panel — both lit with the exact same live signal."><img src="assets/hero.png" alt="mcp-studio: A single amber patch cable runs from one jack into two studio monitors — a browser window and a ChatGPT panel — both lit with the exact same live signal."></button>
+        </figure>
+      </div>
+    </div>
+  </section>
+    <div class="sections">
+      <div class="wrap">
+    <details class="section" id="problem" open>
+      <summary>
+        <span class="num">01</span>
+        <span class="head-text">
+          <h2>Talking back isn't the same as doing something</h2>
+          <span class="q">Why does this actually hurt?</span>
+        </span>
+        <span class="chev" aria-hidden="true">&rsaquo;</span>
+      </summary>
+      <div class="body">
+      <p class="lead-in">Picture a chatbot that could do more than talk. It could run your program. It could grab a live number. It could show you a real, working screen — without you leaving the chat to go find it. That is hard to build.</p>
+      <p>The moment you try to build that, you hit problems that have nothing to do with your actual idea. The chat app might hand each message to a brand new copy of your program — one that remembers nothing from before. Get that wrong, and your second reply comes from a stranger. A stranger who never saw the first message, and has no idea it matters.</p>
+      <p>Once your program can answer, you still need something real to put on the screen. It has to behave the same in an ordinary web page and inside the chat itself. Build those as two separate things, and they quietly drift apart. One breaks. Nobody notices — because nobody was testing the one that broke.</p>
+      <p>And every hour something sits open on the internet, waiting for a chat app to call it, is an hour it's also open to anyone else. That's true before you've written a single line of the feature you actually wanted.</p>
+      
+      <figure class="figure">
+        <span class="tier friendly">The problem</span>
+        <button type="button" class="diagram-zoom" data-src="assets/problem.png" data-alt="Two windows side by side. In a browser tab, a dashboard shows four statistic tiles, a green api healthy status and a full message box. Inside the chat, the same dashboard is missing a tile, its status is grey and its message box is clipped. A caption between them reads: same screen, built twice." aria-label="Enlarge: Two windows side by side. In a browser tab, a dashboard shows four statistic tiles, a green api healthy status and a full message box. Inside the chat, the same dashboard is missing a tile, its status is grey and its message box is clipped. A caption between them reads: same screen, built twice."><img src="assets/problem.png" alt="Two windows side by side. In a browser tab, a dashboard shows four statistic tiles, a green api healthy status and a full message box. Inside the chat, the same dashboard is missing a tile, its status is grey and its message box is clipped. A caption between them reads: same screen, built twice." loading="lazy"></button>
+        <figcaption>The same screen, built twice: one slot empty, the status grey, the input clipped — and nobody notices until a user does.</figcaption>
+      </figure>
+      </div>
+    </details>
+
+    <details class="section" id="what-it-is" open>
+      <summary>
+        <span class="num">02</span>
+        <span class="head-text">
+          <h2>A working starter, already wired</h2>
+          <span class="q">What is this, concretely?</span>
+        </span>
+        <span class="chev" aria-hidden="true">&rsaquo;</span>
+      </summary>
+      <div class="body">
+      <p class="lead-in">MCP Studio is a ready-made project you can copy and run. Clone it, and you get a page for testing by hand. You also get one web address a chat app can call, and five ready-made dashboard screens. All of it is already connected together.</p>
+      <p>Underneath, this project follows one shared rule. That rule lets a chat call out to real software. It can run a function, fetch data, or hand back a screen — instead of only words. Chat apps that support this rule can talk to any project built this way, not just this one.</p>
+      <p>One piece of this project is a small interactive screen — not a link you click away to, but something that shows up right inside the chat itself. MCP Studio ships one, built once, that works both as an ordinary web page and inside a live chat.</p>
+      
+      <figure class="figure diagram concept">
+        <span class="tier tech">The big idea</span>
+        <button type="button" class="diagram-zoom" data-src="assets/big-idea.svg" data-alt="One widget bundle is served through a single endpoint and rendered identically in the browser and inside ChatGPT." aria-label="Enlarge: One widget bundle is served through a single endpoint and rendered identically in the browser and inside ChatGPT."><img src="assets/big-idea.svg" alt="One widget bundle is served through a single endpoint and rendered identically in the browser and inside ChatGPT." loading="lazy"></button>
+      </figure>
+      
+      <table class="tbl"><caption class="visually-hidden">What ships</caption>
+        <thead><tr><th>Aspect</th><th>Detail</th></tr></thead>
+        <tbody>
+        <tr><td>Test bench</td><td>A browser page for calling tools, inspecting responses, and building screens by hand</td></tr>
+        <tr><td>Chat address</td><td>One web address the chat app calls directly, built to answer without remembering past requests</td></tr>
+        <tr><td>Dashboard designs</td><td>Five screens, each credited to the designer whose pattern it follows, in light and dark</td></tr>
+        <tr><td>License</td><td>Apache License 2.0</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </details>
+
+    <details class="section" id="the-insight" open>
+      <summary>
+        <span class="num">03</span>
+        <span class="head-text">
+          <h2>Built once, shown twice</h2>
+          <span class="q">What's the one elegant trick?</span>
+        </span>
+        <span class="chev" aria-hidden="true">&rsaquo;</span>
+      </summary>
+      <div class="body">
+      <p class="lead-in">The screen you see inside the chat is not a second copy of the one you tested in your browser. It is the exact same one.</p>
+      <p>Here's the trick: build the screen once, and let the place it's shown decide how it gets delivered. In an ordinary browser, it talks straight to the chat address. Inside a real chat, the chat app hands it that exact same screen through its own connection — and tells it what colors and size to use.</p>
+      <p>That's not just convenient. It's a rule: if a feature works in your browser test but not inside a real chat, it isn't done. There's no such thing as 'it works, just not in the real place it needs to work.'</p>
+      
+      <figure class="figure diagram concept">
+        <span class="tier tech">The aha</span>
+        <button type="button" class="diagram-zoom" data-src="assets/insight.svg" data-alt="Because nothing persists between requests, the same stateless endpoint can serve both runtimes anywhere." aria-label="Enlarge: Because nothing persists between requests, the same stateless endpoint can serve both runtimes anywhere."><img src="assets/insight.svg" alt="Because nothing persists between requests, the same stateless endpoint can serve both runtimes anywhere." loading="lazy"></button>
+      </figure>
+      <p class="oh">Built once. Shown twice. It can never quietly become two different screens.</p>
+      </div>
+    </details>
+
+    <details class="section" id="how-it-works" open>
+      <summary>
+        <span class="num">04</span>
+        <span class="head-text">
+          <h2>Underneath: no memory between requests, and a narrow front door</h2>
+          <span class="q">How does it actually work?</span>
+        </span>
+        <span class="chev" aria-hidden="true">&rsaquo;</span>
+      </summary>
+      <div class="body">
+      <p class="lead-in">This project runs on MCP — Model Context Protocol. MCP is a shared set of rules that let an AI chat call out to real software. It can run a function, fetch data, or hand back a screen — instead of only sentences. One level down, the choices here are specific and deliberate. Each one is written down as a short decision-and-consequence record.</p>
+      <p>The address the chat app calls, /api/mcp, is stateless — meaning each incoming request gets a brand-new server and connection object, used once and thrown away. Nothing about the first message survives to see the second, on the server side. That's what lets it run on hosting that creates and destroys server instances on demand, rather than keeping one instance permanently assigned to one conversation.</p>
+      <p>The front door is deliberately narrow. Incoming requests are capped at 32 KiB — kibibytes, units of 1,024 bytes, so a little over 32,000 bytes. Every input is checked against a strict schema (an exact description of the shape data must take) before anything runs. Responses are never stored or cached, and cross-origin access is allowed only where explicitly listed, rather than left open by default.</p>
+      <p>The five dashboard designs live in one typed catalog file. Every entry carries a stable ID, its category, the original designer's name, and a direct link to the source design — attribution that travels with the pattern instead of getting lost when it's reused.</p>
+      <div class="dual">
+      <figure class="figure diagram">
+        <span class="tier tech">Architecture</span>
+        <button type="button" class="diagram-zoom" data-src="assets/architecture.svg" data-alt="The parts a reader must hold in mind: the endpoint, the tool and resource catalog, the widget bundle, and the attributed template set it renders." aria-label="Enlarge: The parts a reader must hold in mind: the endpoint, the tool and resource catalog, the widget bundle, and the attributed template set it renders."><img src="assets/architecture.svg" alt="The parts a reader must hold in mind: the endpoint, the tool and resource catalog, the widget bundle, and the attributed template set it renders." loading="lazy"></button>
+        <figcaption>Architecture — modules, components and how they depend on each other.</figcaption>
+      </figure>
+      <figure class="figure diagram">
+        <span class="tier tech">Data flow</span>
+        <button type="button" class="diagram-zoom" data-src="assets/flow.svg" data-alt="A single request is validated, executed, rendered as a widget, and closed with no session left behind." aria-label="Enlarge: A single request is validated, executed, rendered as a widget, and closed with no session left behind."><img src="assets/flow.svg" alt="A single request is validated, executed, rendered as a widget, and closed with no session left behind." loading="lazy"></button>
+        <figcaption>Data flow — how a request moves through the system at runtime.</figcaption>
+      </figure>
+      </div>
+      </div>
+    </details>
+
+    <details class="section" id="use-cases" open>
+      <summary>
+        <span class="num">05</span>
+        <span class="head-text">
+          <h2>Where this fits</h2>
+          <span class="q">How would I use this, myself?</span>
+        </span>
+        <span class="chev" aria-hidden="true">&rsaquo;</span>
+      </summary>
+      <div class="body">
+      <p class="lead-in">Three shapes of work this starter is built for.</p>
+      
+      <figure class="figure">
+        <span class="tier friendly">In the real world</span>
+        <button type="button" class="diagram-zoom" data-src="assets/useCase.png" data-alt="mcp-studio in use" aria-label="Enlarge: mcp-studio in use"><img src="assets/useCase.png" alt="mcp-studio in use" loading="lazy"></button>
+      </figure>
+      <div class="gallery"><div class="grid">
+      <details class="case" open>
+        <summary>
+          <span class="uc-num">1</span>
+          <span class="uc-title">Wire up a real tool</span>
+          <span class="uc-tag">backend</span>
+          <span class="chev" aria-hidden="true">&rsaquo;</span>
+        </summary>
+        <div class="uc-body">
+          <p>Add your tool's definition to lib/catalog.ts with a strict input schema, and it's callable the moment the address is deployed.</p>
+      <p>Add that address in ChatGPT's developer settings — under no authentication only while the tool stays read-only with no private data — and a real conversation can call it directly.</p>
+        </div>
+      </details>
+      <details class="case" open>
+        <summary>
+          <span class="uc-num">2</span>
+          <span class="uc-title">Test the screen before it's live</span>
+          <span class="uc-tag">prototyping</span>
+          <span class="chev" aria-hidden="true">&rsaquo;</span>
+        </summary>
+        <div class="uc-body">
+          <p>The root page serves a test bench: pick a tool, run it, and see the exact request and response next to a live preview of whatever screen it produces — all before anyone connects it to a real conversation.</p>
+        </div>
+      </details>
+      <details class="case" open>
+        <summary>
+          <span class="uc-num">3</span>
+          <span class="uc-title">Start from a real dashboard</span>
+          <span class="uc-tag">interface design</span>
+          <span class="chev" aria-hidden="true">&rsaquo;</span>
+        </summary>
+        <div class="uc-body">
+          <p>Five attributed dashboard designs ship ready to adapt — a fleet-tracking view, an order-management view, a scheduling view, and others — each linked back to the designer whose pattern it follows, in light or dark. Reuse the pattern, keep the credit; nobody has to pretend the idea was theirs.</p>
+        </div>
+      </details>
+      </div></div>
+      </div>
+    </details>
+
+    <details class="section" id="get-started" open>
+      <summary>
+        <span class="num">06</span>
+        <span class="head-text">
+          <h2>Run it yourself</h2>
+          <span class="q">Can I run it right now?</span>
+        </span>
+        <span class="chev" aria-hidden="true">&rsaquo;</span>
+      </summary>
+      <div class="body">
+      <p class="lead-in">Node.js 22.13.0 or newer is required — the package.json engines field enforces it — along with npm or pnpm.</p>
+      <div class="install-block"><pre class="code-block"><code>npm run install:ci ; pnpm install</code></pre></div>
+      <ol class="steps">
+        <li><strong>Install dependencies</strong> Run <code>npm run install:ci</code> (runs scripts/install-pnpm.sh) or <code>pnpm install</code> directly.</li>
+        <li><strong>Start the dev server</strong> Run <code>npm run dev</code> (or <code>pnpm dev</code>). You'll get a local address serving the test bench at <code>/</code>: a tool tester, a resource inspector, and a template builder, in tabs.</li>
+        <li><strong>Run a tool</strong> Pick a tool such as show_dashboard, run it, and watch the raw request and response appear next to a live preview of the screen it returns — the same screen, rendered instantly, no second copy quietly drifting out of sync.</li>
+        <li><strong>Build and check</strong> Run <code>npm run build</code> (bundles the widget, then builds the framework output), then <code>npm run lint</code>, <code>npm run typecheck</code>, and <code>npm run test</code> to confirm it holds together.</li>
+        <li><strong>Run the built server locally</strong> Run <code>npm run start</code> to serve the compiled output through Wrangler — the local development tool for Cloudflare Workers, a hosting style that creates a fresh server instance per request instead of keeping one running full time.</li>
+        <li><strong>Connect it to a real conversation</strong> Deploy to a public web address, add it — as .../api/mcp — in ChatGPT's developer settings, and try the prompt: 'Use MCP Studio to show the starter dashboard.'</li>
+      </ol>
+      </div>
+    </details>
+
+    <details class="section" id="the-pack" open>
+      <summary>
+        <span class="num">07</span>
+        <span class="head-text">
+          <h2>The knowledge behind this page</h2>
+          <span class="q">What's this page built on?</span>
+        </span>
+        <span class="chev" aria-hidden="true">&rsaquo;</span>
+      </summary>
+      <div class="body">
+      <p class="lead-in">Every claim above traces back to a retrieval index built over this repository: 347 passages, 1 component, 34 public symbols, and 35 entrypoint commands, encoded at 384 dimensions.</p>
+      <div class="tree" style="white-space:pre"><span class="cmt"># mcp-studio-knowledge-pack.zip</span>
+<span class="d">for-ai/</span>            <span class="cmt"># wire this into your agent</span>
+  <span class="f">mcp-studio-kb.rvf</span>            <span class="cmt"># 384-dim vector brain (semantic search)</span>
+  <span class="f">mcp-studio-kb.passages.jsonl</span> <span class="cmt"># full passage text (search returns TEXT)</span>
+  <span class="f">mcp-studio-symbols.json</span>      <span class="cmt"># exact public API</span>
+  <span class="f">mcp-studio-dep-graph.json</span>    <span class="cmt"># what depends on what</span>
+  <span class="f">mcp-studio-entrypoints.json</span>  <span class="cmt"># build / test / run commands</span>
+  <span class="f">ask-kb.mjs</span> · <span class="f">kb-mcp-server.mjs</span>  <span class="cmt"># CLI + MCP search server</span>
+<span class="d heart">for-humans/</span>        <span class="cmt"># read first</span>
+  <span class="f heart">mcp-studio-primer.md</span>      <span class="cmt"># the human orientation</span></div>
+      <div class="dl-cta"><a class="cta" href="mcp-studio-knowledge-pack.zip" download>Download the knowledge pack</a><span class="dl-meta">RVF vector KB + MCP server — drop it into your own agent.</span></div>
+      <a class="dropzone" href="mcp-studio-knowledge-pack.zip" download><span class="dz-icon" aria-hidden="true">&darr;</span><strong>Give your AI the same understanding</strong><span class="dz-hint">mcp-studio-knowledge-pack.zip</span></a>
+      </div>
+    </details>
+      </div>
+    </div>
+  </main>
+
+  <footer class="explainer-footer" role="contentinfo">
+    <div class="wrap explainer-footer-inner">
+      <p class="ef-credit">
+        Explainer page created by <strong><a href="https://stuart-kerr-card.netlify.app" rel="author noopener" target="_blank">Stuart Kerr</a></strong> at
+        <a href="https://isovision.ai" rel="noopener" target="_blank">ISOvision</a>
+        <span class="ef-fine">Built with the open-source <a href="https://github.com/stuinfla/Repo-Explainer" rel="noopener" target="_blank">explainmyrepo</a> engine.
+        Found this valuable? <a href="https://github.com/stuinfla/Repo-Explainer" rel="noopener" target="_blank">A star on GitHub</a> genuinely helps &mdash;
+        and if something's off, <a href="https://github.com/stuinfla/Repo-Explainer/issues" rel="noopener" target="_blank">open an issue</a>: happy to help fix it.</span>
+      </p>
+      <a class="ef-cta" href="https://explainmyrepo.isovision.ai" target="_blank" rel="noopener">
+        <span class="ef-cta-lead">Would you like your own repo explainer page?</span>
+        <strong>Generate one here</strong>
+        <span class="ef-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+    </div>
+  </footer>
+  <dialog class="diagram-lightbox" id="diagram-lightbox" aria-label="Enlarged diagram">
+    <button type="button" class="lightbox-close" data-close aria-label="Close">&times;</button>
+    <img id="diagram-lightbox-img" src="" alt="">
+  </dialog>
+  <script>
+  (function () {
+    var dlg = document.getElementById('diagram-lightbox');
+    if (!dlg || typeof dlg.showModal !== 'function') return;
+    var img = document.getElementById('diagram-lightbox-img');
+    document.querySelectorAll('.diagram-zoom').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        img.src = btn.getAttribute('data-src');
+        img.alt = btn.getAttribute('data-alt') || '';
+        dlg.showModal();
+      });
+    });
+    dlg.addEventListener('click', function (e) {
+      if (e.target === dlg || e.target.hasAttribute('data-close')) dlg.close();
+    });
+  })();
+  </script>
+</body>
+</html>

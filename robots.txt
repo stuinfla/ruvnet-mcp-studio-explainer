@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mcp-studio-explainer.netlify.app/sitemap.xml
